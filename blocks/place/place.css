@@ -23,7 +23,7 @@
         max-width: 720px;
         max-height: 581px;
         grid-template-columns: 340px 1fr;
-        grid-template-rows: 1fr 340px;
+        grid-template-rows: 1fr fit-content;
         grid-template-areas: 
             "header website"
             "image text";
@@ -38,7 +38,7 @@
         max-height: 640px;
         max-width: 928px;
         grid-template-columns: 440px 1fr;
-        grid-template-rows: 1fr 440px;
+        grid-template-rows: minmax(76px, 152px) 1fr;
         grid-template-areas: 
             "header website"
             "image text";
@@ -52,7 +52,7 @@
         max-height: 660px;
         max-width: 984px;
         grid-template-columns: 460px 1fr;
-        grid-template-rows: 1fr 460px;
+        grid-template-rows: minmax(76px, 152px) 1fr ;
         column-gap: 40px;
     }
 }
