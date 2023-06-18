@@ -52,7 +52,7 @@
         max-height: 660px;
         max-width: 984px;
         grid-template-columns: 460px 1fr;
-        grid-template-rows: minmax(76px, 152px) 1fr ;
+        grid-template-rows: minmax(76px, 152px) 1fr;
         column-gap: 40px;
     }
 }

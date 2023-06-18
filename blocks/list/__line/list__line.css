@@ -1,6 +1,7 @@
 .list__line{
     list-style-type: none;
     display: flex;
+    flex-direction: row;
     flex-wrap: nowrap;
-    flex-direction: column;
+    height: 18px;
 }
