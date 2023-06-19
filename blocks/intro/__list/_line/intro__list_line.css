@@ -2,7 +2,7 @@
     color: white;
     list-style-type: none;
     flex-wrap: nowrap;
-    height: 18px;
+    max-height: 18px;
     margin: 0;
     font-weight: 700;
 }

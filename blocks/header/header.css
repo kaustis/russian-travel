@@ -4,15 +4,9 @@
     justify-content: space-between;
     align-content: center;
     height: fit-content;
+    min-width: 90vw;
+    margin: 5% 5% 48px 5%;
 }
-
-@media screen and (min-width: 320px){
-    .header{
-        min-width: 90vw;
-        margin: 5% 5% 48px 5%;
-    }
-}
-
 
 @media screen and (min-width: 768px){
     .header{
