@@ -2,12 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-self: center;
 }
 
 @media screen and (min-width: 320px){
     .intro{
-        margin: 20vw 5vw 20vw 5vw;
-        align-self: center;
+        margin: 20vw 0 20vw 0;
         width: 90vw;
         max-height: 754px;
     }
@@ -15,25 +15,21 @@
 
 @media screen and (min-width: 768px){
     .intro{
-        margin: 88px 24px 88px 24px;
-        align-self: center;
-        width: 94vw;
-        height: 429px;
+        margin: 88px 0 88px 0;
+        max-width: 94vw;
+        max-height: 429px;
     }
 }
 
 @media screen and (min-width: 1024px){
     .intro{
-        margin: 92px 286px 92px 48px;
-        width: 690px;
-        height: 429px;
+        margin: 92px 238px 92px 0;
+        max-width: 690px;
     }
 }
 
 @media screen and (min-width: 1280px){
     .intro{
-        margin: 92px 286px 92px 0;
-        width: 690px;
-        height: 429px;
+        margin: 92px 294px 92px 0;
     }
 }

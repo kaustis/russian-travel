@@ -6,7 +6,7 @@
 
 @media screen and (min-width: 320px){
     .places{
-        width: 100vw;
+        width: 100%;
         row-gap: 50px;
         margin-bottom: 66px;
     }   
