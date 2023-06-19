@@ -1,7 +1,11 @@
-.header__link-EN{
+.header__link{
     color: white;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
+}
+
+.header__link:nth-child(2n){
     margin-left: 18px;
+    text-decoration: none;
 }

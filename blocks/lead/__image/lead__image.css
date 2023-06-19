@@ -1,11 +1,5 @@
 .lead__image{
-    display: flex;
-    background-image: url("../../../images/kalegin-michail-179870-unsplash.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
     margin-bottom: 8px;
-    justify-content: center;
-    align-content: center;
 }
 
 @media screen and (min-width: 320px){
