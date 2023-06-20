@@ -14,7 +14,6 @@
         font-size: 42px;
         line-height: 46px;
         max-width: 300px;
-        height: minmax(46px, 92px);
         align-self: flex-end;
         justify-self: flex-start;
     }
@@ -25,7 +24,6 @@
         font-size: 72px;
         line-height: 76px;
         min-width: 440px;
-        max-height: 152px;
         align-self: flex-end;
         justify-self: flex-start;
     }
@@ -33,7 +31,6 @@
 
 @media screen and (min-width: 1280px){
     .place__header{
-        min-width: 460px;
-        height: minmax(76px, 152px);
+        min-width: 460px;     
     }
 }
